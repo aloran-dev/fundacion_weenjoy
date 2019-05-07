@@ -1,0 +1,32 @@
+{
+  "name": "fundacion",
+  "version": "1.0.0",
+  "description": "Fundación Weenjoy | La obra humana más bella, es la de ser útil al prójimo",
+  "author": "Weenjoy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "aos": "^2.3.4",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "vue-lazyload": "^1.2.6",
+    "vue-rellax": "^0.1.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0",
+    "vue-jest": "^3.0.3"
+  }
+}
