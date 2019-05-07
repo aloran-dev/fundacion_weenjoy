@@ -94,7 +94,7 @@
 
   &__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 30px;
     margin-top: 50px;
 
@@ -144,6 +144,16 @@
     .welcome {
       &__article {
         column-count: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    .programs {
+      &__list {
+        grid-template-columns: 100%;
       }
     }
   }
