@@ -93,13 +93,15 @@
   padding: 50px 2%;
 
   &__list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 
     &__program {
       position: relative;
+      width: calc(50% - 50px);
+      margin: 25px;
 
       &__title {
         position: absolute;
@@ -146,14 +148,11 @@
         column-count: 1;
       }
     }
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .home {
     .programs {
       &__list {
-        grid-template-columns: 100%;
+        &__program {
+          width: 100%;
+        }
       }
     }
   }

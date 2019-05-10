@@ -9,7 +9,10 @@ export default {
   },
 
   generate: {
-    routes: []
+    routes: [
+      '/',
+      '/we-u'
+    ]
   },
 
   head: {
