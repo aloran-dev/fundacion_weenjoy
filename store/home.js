@@ -9,9 +9,9 @@ export const state = () => ({
         personas, así como de las comunidades.</p>
 
       <p>Hacer algo por nuestro mundo y nuestros semejantes es la mejor manera de agradecer el privilegio de tener cubiertas
-        nuestras necesidades básicas. El altruismo y la generosidad pueden hacer que logremos un cambio social si realizamos las prácticas adecuadas en cada
-        una de nuestras causas. <br>
-        Es por ello que creemos que entre más personas se involucren en los proyectos, más ideas, más acciones y más
+        nuestras necesidades básicas. <br>
+        El altruismo y la generosidad pueden hacer que logremos un cambio social si realizamos las prácticas adecuadas en cada
+        una de nuestras causas. Es por ello que creemos que entre más personas se involucren en los proyectos, más ideas, más acciones y más
         resultados asertivos se pueden lograr para beneficiar a la comunidad.</p>
 
       <p>Actualmente, son tres programas los que se llevan a cabo dentro de la fundación: Premios Causas, Aún Creo y Viajeros

@@ -11,6 +11,7 @@
     <div class="nav__links">
       <nuxt-link
         v-for="(link, index) in links"
+        active-class="active"
         :key="index"
         :to="link.to"
       > {{ link.name }} </nuxt-link>
@@ -62,12 +63,20 @@
       border-radius: 30px;
 
       &:hover {
-        background: rgba(#fff, 0.3);
-        box-shadow: 0 1px 9px rgba(#000, 0.3);
-        opacity: 1;
-        color: var(--p_color);
+        @extend %active;
       }
     }
+
+    .nuxt-link-exact-active {
+      @extend %active;
+    }
   }
+}
+
+%active {
+  background: rgba(#fff, 0.3);
+  box-shadow: 0 1px 9px rgba(#000, 0.3);
+  opacity: 1;
+  color: var(--p_color);
 }
 </style>

@@ -1,5 +1,7 @@
 export const state = () => ({
-  description: `<p>We u es el primer programa de la Fundación Weenjoy. A través de la integración de comunidades de usuarios que se desprenderán de los alumnos de las principales universidades en México, la Fundación Weenjoy captará una gran cantidad de pinjoys, que se traducirán de manera directa a programas internos para cada universidad.</p>`,
+  description: `
+    <p>We u es el primer programa de la Fundación Weenjoy. A través de la integración de comunidades de usuarios que se desprenderán de los alumnos de las principales universidades en México,
+    la Fundación Weenjoy captará una gran cantidad de pinjoys, que se traducirán de manera directa a programas internos para cada universidad.</p>`,
 
   categories: {
     title: 'Categorias participantes',
