@@ -16,6 +16,7 @@
           :data-src="item.img"
           :data-loading="item.lazy"
           :alt="item.alt"
+          v-rellax="{ speed: -2 }"
         >
 
         <div class="hero__content">

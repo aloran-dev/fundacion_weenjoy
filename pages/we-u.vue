@@ -31,11 +31,10 @@
       simple
     >
       <img
-        class="rellax"
-        data-rellax-speed="7"
         :data-src="weu.cover.src"
         :data-loading="weu.cover.lazy"
         :alt="weu.cover.alt"
+        v-rellax="{ speed: -2 }"
       >
     </Wrapper>
 
@@ -109,11 +108,13 @@
   .cover {
     width: 100%;
     height: 700px;
+    overflow: hidden;
 
     & > img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      margin-top: -300px;
     }
   }
 
