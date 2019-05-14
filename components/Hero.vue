@@ -76,7 +76,7 @@
     }
 
     &__content {
-      background: rgba(var(--p_color--rgb), 0.5);
+      background: rgba(var(--p_color--rgb), 0.7);
       position: absolute;
       z-index: 2;
       top: 0;
@@ -90,6 +90,7 @@
 
       & > h1 {
         margin-bottom: 1rem;
+        color: inherit;
       }
 
       & > img {

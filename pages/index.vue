@@ -1,6 +1,9 @@
 <template>
   <section class="home">
-    <Wrapper class="welcome">
+    <Wrapper
+      class="welcome"
+      data-aos="fade-down"
+    >
       <h2> {{ home.welcome.title }} </h2>
       <article
         class="welcome__article"
@@ -10,7 +13,10 @@
 
     <Video :src="home.video" />
 
-    <Wrapper class="about">
+    <Wrapper
+      class="about"
+      data-aos="fade-down"
+    >
       <div
         v-for="(item, index) in home.about"
         :key="`about-${index}`"
@@ -24,9 +30,13 @@
       class="programs"
       simple
     >
-      <h3 class="programs__title"> {{ home.programs.title }} </h3>
+      <h3
+        class="programs__title"
+        data-aos="fade-down"
+      > {{ home.programs.title }} </h3>
       <div class="programs__list">
         <div
+          data-aos="fade-down"
           class="programs__list__program"
           v-lazy-container="{ selector: 'img' }"
           v-for="(program, index) in home.programs.list"
@@ -42,10 +52,11 @@
       </div>
     </Wrapper>
 
-    <Wrapper class="stats">
-      <h4> {{ home.stats.title }} </h4>
-      <h1 class="stats__quantity"> {{ home.stats.quantity }} </h1>
-      <p> {{ home.stats.subtitle }} </p>
+    <Wrapper
+      class="phrase"
+      data-aos="fade-down"
+    >
+      <blockquote> {{ home.phrase }} </blockquote>
     </Wrapper>
   </section>
 </template>
@@ -85,18 +96,18 @@
   text-align: justify;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 100px;
+  grid-gap: 50px;
 }
 
 .programs {
   background: #eee;
-  padding: 50px 2%;
+  padding: 80px var(--global_padding);
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 25px;
 
     &__program {
       position: relative;
@@ -120,7 +131,7 @@
 
       & > img {
         width: 100%;
-        height: 300px;
+        height: 250px;
         object-fit: cover;
         border-radius: 10px;
         box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
@@ -129,16 +140,8 @@
   }
 }
 
-.stats {
+.phrase {
   text-align: center;
-
-  &__quantity {
-    color: var(--p_color);
-  }
-
-  & > *:last-child {
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 750px) {

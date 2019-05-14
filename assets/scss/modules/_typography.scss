@@ -36,10 +36,37 @@ h3,
 h4,
 h5 {
   margin-bottom: 1.5rem;
+  color: #ff2d2d;
 }
 
 p,
 li {
   margin-bottom: 1rem;
   line-height: 1.7;
+}
+
+blockquote {
+  display: inline-block;
+  color: var(--p_color);
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 600px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 600;
+
+  &::before {
+    @extend %blockquote;
+    content: '“';
+  }
+
+  &::after {
+    @extend %blockquote;
+    content: '”';
+  }
+}
+
+%blockquote {
+  font-size: 2.3rem;
+  line-height: 0.1rem;
 }

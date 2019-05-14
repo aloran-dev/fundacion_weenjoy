@@ -1,6 +1,7 @@
 <template>
   <div class="media">
     <iframe
+      title="responsive video"
       :src="src"
       width="640"
       height="564"

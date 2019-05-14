@@ -46,7 +46,7 @@
   z-index: var(--index_nav);
 
   &__logo {
-    height: calc(var(--nav_height) - 30px);
+    height: 35px;
     object-fit: contain;
   }
 
@@ -60,7 +60,7 @@
       padding: 0.5rem 0.7rem;
       opacity: 0.9;
       transition: ease 0.3s;
-      border-radius: 30px;
+      border-radius: 10px;
 
       &:hover {
         @extend %active;
@@ -75,8 +75,6 @@
 
 %active {
   background: rgba(#fff, 0.3);
-  box-shadow: 0 1px 9px rgba(#000, 0.3);
   opacity: 1;
-  color: var(--p_color);
 }
 </style>

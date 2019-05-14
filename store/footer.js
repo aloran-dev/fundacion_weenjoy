@@ -1,3 +1,3 @@
 export const state = () => ({
-  legal: '©/FUNDACIÓN WEENJOY, Weenjoy Intelligent Network S.C. - 2019 Todos los derechos reservados'
+  legal: 'Fundación Weenjoy A.C. 2019 Derechos Reservados'
 })

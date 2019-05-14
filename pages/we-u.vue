@@ -3,11 +3,15 @@
     <Wrapper
       class="description"
       v-html="weu.description"
+      data-aos="fade-down"
     />
 
     <Wrapper class="categories">
-      <h4> {{ weu.categories.title }} </h4>
-      <div class="categories__img">
+      <h4 data-aos="fade-down"> {{ weu.categories.title }} </h4>
+      <div
+        class="categories__img"
+        data-aos="fade-down"
+      >
         <img
           :src="weu.categories.img"
           :alt="weu.categories.alt"
@@ -18,6 +22,7 @@
     <Wrapper
       class="how"
       v-html="weu.how.content"
+      data-aos="fade-down"
     />
 
     <Wrapper
@@ -26,13 +31,18 @@
       simple
     >
       <img
+        class="rellax"
+        data-rellax-speed="7"
         :data-src="weu.cover.src"
         :data-loading="weu.cover.lazy"
         :alt="weu.cover.alt"
       >
     </Wrapper>
 
-    <Wrapper class="guidelines">
+    <Wrapper
+      class="guidelines"
+      data-aos="fade-down"
+    >
       <h4> {{ weu.guidelines.title }} </h4>
       <div class="guidelines__list">
         <ol>
