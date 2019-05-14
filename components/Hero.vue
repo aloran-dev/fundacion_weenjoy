@@ -56,6 +56,7 @@
   width: 100%;
   height: calc(100vh - var(--nav_height));
   position: relative;
+  overflow: hidden;
 
   .hero {
     width: 100%;
