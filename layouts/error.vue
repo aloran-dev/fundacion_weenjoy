@@ -4,7 +4,6 @@
       :is="errorPage"
       :error="error"
     />
-    <h1>Prueba de layout</h1>
   </div>
 </template>
 
@@ -40,6 +39,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: teal;
 }
 </style>

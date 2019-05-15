@@ -47,13 +47,13 @@ li {
 
 blockquote {
   display: inline-block;
-  color: var(--p_color);
+  font-weight: 400;
+  color: var(--a_color);
   margin-bottom: 0;
   width: 100%;
   max-width: 600px;
   font-size: 2rem;
   font-style: italic;
-  font-weight: 600;
 
   &::before {
     @extend %blockquote;
