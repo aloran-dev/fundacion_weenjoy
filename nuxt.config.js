@@ -26,7 +26,7 @@ export default {
       innerHTML: 'Lo lamentamos pero Fundación Weenjoy necesita javascript para funcionar correctaente, activalo o utiliza un navegador compatible.'
     }],
     link: [
-      { href: 'https://fonts.googleapis.com/css?family=Montserrat:400,600', rel: 'preload', as: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css?family=Montserrat:400,600', rel: 'stylesheet' },
 
       // favicons
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon/apple-touch-icon.png' },
