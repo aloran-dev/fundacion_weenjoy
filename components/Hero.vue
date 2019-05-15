@@ -5,9 +5,6 @@
       v-for="(item, index) in hero"
       :key="`hero-${index}`"
     >
-      <pre>
-        {{ route }}
-      </pre>
       <div
         class="hero"
         v-lazy-container="{ selector: 'img' }"
