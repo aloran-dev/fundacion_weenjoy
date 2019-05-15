@@ -1,6 +1,6 @@
 export const state = () => ([
   {
-    id: '/',
+    id: 'index',
     img: require('~/assets/img/hero/home.png'),
     lazy: require('~/assets/img/hero/home--low.png'),
     alt: 'Fundación Weenjoy',
@@ -10,7 +10,7 @@ export const state = () => ([
     }
   },
   {
-    id: '/we-u/',
+    id: 'we-u',
     img: require('~/assets/img/hero/we_u.png'),
     lazy: require('~/assets/img/hero/we_u--low.png'),
     alt: 'WE-U',

@@ -44,7 +44,7 @@
     },
     computed: {
       route () {
-        return this.$route.path
+        return this.$route.name
       }
     },
   }

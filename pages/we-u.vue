@@ -2,9 +2,10 @@
   <section class="we-u">
     <Wrapper
       class="description"
-      v-html="weu.description"
       data-aos="fade-down"
-    />
+    >
+      <article v-html="weu.description"></article>
+    </Wrapper>
 
     <Wrapper class="categories">
       <h4 data-aos="fade-down"> {{ weu.categories.title }} </h4>
@@ -21,9 +22,10 @@
 
     <Wrapper
       class="how"
-      v-html="weu.how.content"
       data-aos="fade-down"
-    />
+    >
+      <article v-html="weu.how.content"></article>
+    </Wrapper>
 
     <Wrapper
       class="cover"
