@@ -12,7 +12,7 @@ export const state = () => ({
     },
     {
       name: 'WE-U',
-      to: '/we-u'
+      to: '/we-u/'
     }
   ]
 })
