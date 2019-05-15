@@ -26,10 +26,7 @@
       </div>
     </Wrapper>
 
-    <Wrapper
-      class="programs"
-      simple
-    >
+    <Wrapper class="programs">
       <h3
         class="programs__title"
         data-aos="fade-down"
@@ -101,7 +98,6 @@
 
 .programs {
   background: #eee;
-  padding: 80px var(--global_padding);
 
   &__list {
     display: flex;
