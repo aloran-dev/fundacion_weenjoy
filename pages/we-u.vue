@@ -34,7 +34,6 @@
         :data-src="weu.cover.src"
         :data-loading="weu.cover.lazy"
         :alt="weu.cover.alt"
-        v-rellax="{ speed: -2 }"
       >
     </Wrapper>
 
@@ -114,7 +113,6 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      margin-top: -300px;
     }
   }
 

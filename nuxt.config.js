@@ -10,8 +10,6 @@ export default {
 
   generate: {
     routes: [
-      '/',
-      '/we-u'
     ]
   },
 
