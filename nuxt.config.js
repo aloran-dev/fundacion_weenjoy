@@ -20,6 +20,7 @@ export default {
       { name: 'theme-color', content: '#78d7e1' },
       { name: 'msapplication-TileColor', content: '#78d7e1' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'thumbnail', content: '/thumbnail.png' },
       { name: 'description', content: pkg.description, hid: 'description' }
     ],
     noscript: [{

@@ -3,17 +3,17 @@ export const state = () => ({
     {
       title: 'Facebook',
       icon: require('~/assets/img/social/logo--facebook.png'),
-      link: ''
+      link: 'https://www.facebook.com/WeenjoyCom/'
     },
     {
       title: 'Twitter',
       icon: require('~/assets/img/social/logo--twitter.png'),
-      link: ''
+      link: 'https://twitter.com/WeenjoyCom'
     },
     {
       title: 'Instagram',
       icon: require('~/assets/img/social/logo--instagram.png'),
-      link: ''
+      link: 'https://www.instagram.com/weenjoycom/'
     }
   ],
 
@@ -21,17 +21,17 @@ export const state = () => ({
     {
       title: 'Weenjoy',
       icon: require('~/assets/img/logos/weenjoy.png'),
-      link: ''
+      link: 'https://www.weenjoy.com/'
     },
     {
       title: 'Weenjoy Partners',
       icon: require('~/assets/img/logos/weenjoy-partners.png'),
-      link: ''
+      link: 'https://partners.weenjoy.com/'
     },
     {
       title: 'WIN',
       icon: require('~/assets/img/logos/win.png'),
-      link: ''
+      link: 'https://win.weenjoy.com/'
     },
   ],
 

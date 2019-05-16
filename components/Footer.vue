@@ -1,20 +1,32 @@
 <template>
   <footer class="footer">
     <div class="footer__body">
-      <img
-        v-for="(img, index) in footer.logos"
-        :src="img.icon"
-        :alt="img.title"
+      <a
+        :href="logos.link"
+        v-for="(logos, index) in footer.logos"
         :key="index"
+        target="_blank"
+        rel="noopener noreferrer"
       >
+        <img
+          :src="logos.icon"
+          :alt="logos.title"
+        >
+      </a>
     </div>
     <div class="footer__social">
-      <img
-        v-for="(img, index) in footer.social"
-        :src="img.icon"
-        :alt="img.title"
+      <a
+        :href="social.link"
+        v-for="(social, index) in footer.social"
         :key="index"
+        target="_blank"
+        rel="noopener noreferrer"
       >
+        <img
+          :src="social.icon"
+          :alt="social.title"
+        >
+      </a>
     </div>
     <div class="footer__legal">
       <p> {{ footer.legal }} </p>
@@ -46,7 +58,7 @@
     align-items: center;
     padding: 30px var(--global_padding) 15px var(--global_padding);
 
-    & > img {
+    & > a img {
       margin: 25px;
       height: 50px;
       object-fit: contain;
@@ -60,7 +72,7 @@
     align-items: center;
     padding: 0 var(--global_padding) 30px var(--global_padding);
 
-    & > img {
+    & > a img {
       margin: 10px;
       height: 30px;
       object-fit: contain;
