@@ -8,6 +8,11 @@
     </Wrapper>
 
     <Wrapper class="categories">
+      <img
+        class="categories__background"
+        :src="weu.categories.texture"
+        :alt="weu.categories.texture_alt"
+      >
       <h4 data-aos="fade-down"> {{ weu.categories.title }} </h4>
       <div
         class="categories__img"
@@ -81,8 +86,16 @@
   }
 
   .categories {
-    background: var(--bg_color);
     color: #fff;
+    position: relative;
+
+    &__background {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
 
     &__img {
       width: 100%;

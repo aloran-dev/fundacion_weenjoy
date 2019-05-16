@@ -4,7 +4,9 @@ export const state = () => ({
   categories: {
     title: 'Categorias participantes',
     img: require('~/assets/img/categories.png'),
-    alt: 'Categorias'
+    alt: 'Categorias',
+    texture: require('~/assets/img/textures/blue.png'),
+    texture_alt: 'fondo'
   },
 
   how: {
