@@ -39,6 +39,6 @@
 
 .wrapper--padded {
   @extend %wrapper;
-  padding: 80px var(--global_padding);
+  padding: 150px var(--global_padding);
 }
 </style>
